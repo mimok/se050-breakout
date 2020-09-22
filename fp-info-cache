@@ -1,0 +1,190 @@
+42887217239615
+TSens
+BEADC0603X33N
+0201/0603
+Ferrite Bead
+0
+2
+2
+TSens
+BEADC1608X95N
+BLM18_1 L=1.6 W=0.8 T=0.8
+Filter
+0
+2
+2
+TSens
+CON-SMA-EDGE
+
+
+0
+5
+5
+TSens
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+TSens
+ESD-Logo_6.6x6mm_SilkScreen
+Electrostatic discharge Logo
+Logo ESD
+0
+0
+0
+TSens
+JST_PH_B2B-PH-SM4-TB_02x2.00mm_Straight
+JST PH series connector, B2B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+connector jst ph
+0
+4
+2
+TSens
+L_0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+TSens
+MF_Connectors-MICROUSB-RIGHT
+DESCRIPTION: PACKAGE FOR MICRO USB TYPE B CONNECTOR. BASED ON FCI 10118193-0001LF.
+DESCRIPTION: PACKAGE FOR MICRO USB TYPE B CONNECTOR. BASED ON FCI 10118193-0001LF.
+0
+15
+14
+TSens
+MF_IC_Power-SOT-23-5
+DESCRIPTION: STANDARD SOT-23-5 PACKAGE.
+DESCRIPTION: STANDARD SOT-23-5 PACKAGE.
+0
+5
+5
+TSens
+MF_LEDs-LED0603
+DESCRIPTION: FOOTPRINT FOR SINGLE LEDS IN 0621
+DESCRIPTION: FOOTPRINT FOR SINGLE LEDS IN 0621
+0
+2
+2
+TSens
+MF_Switches-TACT4.2MM
+DESCRIPTION: STANDARD 4.2MM TACT SWITCH PACKAGE.BASED OFF C&K PTS 810 SERIES TACT SWITCH.
+DESCRIPTION: STANDARD 4.2MM TACT SWITCH PACKAGE.BASED OFF C&K PTS 810 SERIES TACT SWITCH.
+0
+4
+4
+TSens
+MIKROBUS_CONN
+
+mikrobus
+0
+0
+0
+TSens
+MODULE_CMWX1ZZABZ-091
+
+
+0
+57
+57
+TSens
+MountingHole_2.2mm_M2
+Mounting Hole 2.2mm, no annular, M2
+mounting hole 2.2mm no annular m2
+0
+0
+0
+TSens
+OSHW-Logo_7.5x8mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+TSens
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+TSens
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+TSens
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+TSens
+PinSocket_1x08_P2.54mm_Vertical
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+8
+8
+TSens
+QFN40P300X300X33-21N-D
+HX2QFN20
+Integrated Circuit
+0
+21
+21
+TSens
+R_0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+TSens
+SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
+SMA Straight Samtec Edge Mount
+0
+5
+2
+TSens
+SODFL3517X110N
+(SOD123W)
+Schottky Diode
+0
+2
+2
+TSens
+SOT-143B
+SOT-143B
+Diode
+0
+4
+4
+TSens
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+TSens
+USB_Micro_B_Female_10118193-0001LF
+http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf
+
+0
+11
+6
+TSens
+WEEE-Logo_4.2x6mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0

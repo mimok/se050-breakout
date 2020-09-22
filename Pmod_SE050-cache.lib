@@ -1,0 +1,159 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# archive_Connector_Generic_Conn_01x06
+#
+DEF archive_Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "archive_Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# archive_Connector_Generic_Conn_02x03_Odd_Even
+#
+DEF archive_Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "archive_Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# archive_Device_C_Small
+#
+DEF archive_Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "archive_Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# archive_Device_R_Small
+#
+DEF archive_Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "archive_Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# archive_SamacSys_Parts_SE050C1HQ1_Z01SCZ
+#
+DEF archive_SamacSys_Parts_SE050C1HQ1_Z01SCZ IC 0 30 Y Y 1 F N
+F0 "IC" 1850 1000 50 H V L CNN
+F1 "archive_SamacSys_Parts_SE050C1HQ1_Z01SCZ" 1850 900 50 H V L CNN
+F2 "QFN40P300X300X33-21N-D" 1850 800 50 H I L CNN
+F3 "https://www.mouser.at/datasheet/2/302/SE050-DATASHEET-1620446.pdf" 1850 700 50 H I L CNN
+F4 "Security ICs / Authentication ICs ECC, RSA, AES, DES, MIFARE KDF, CL-IF, I<sup>2</sup>C Master" 1850 600 50 H I L CNN "Description"
+F5 "0.33" 1850 500 50 H I L CNN "Height"
+F6 "Nexperia" 1850 400 50 H I L CNN "Manufacturer_Name"
+F7 "SE050C1HQ1/Z01SCZ" 1850 300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 800 1800 800 1800 -1000 200 -1000 200 800 N
+X ISO_14443_LB 1 0 0 200 R 50 50 0 0 B
+X I2C_SCL 10 1200 -1200 200 U 50 50 0 0 I
+X ENA 11 2000 -400 200 L 50 50 0 0 I
+X VIN 12 2000 -300 200 L 50 50 0 0 W
+X ISO_7816_CLK 13 2000 -200 200 L 50 50 0 0 I
+X ISO_7816_RST_N 14 2000 -100 200 L 50 50 0 0 I
+X VOUT 15 2000 0 200 L 50 50 0 0 w
+X ISO_7816_IO2 16 1200 1000 200 D 50 50 0 0 B
+X ISO_14443_LA 17 1100 1000 200 D 50 50 0 0 B
+X VCC 18 1000 1000 200 D 50 50 0 0 W
+X VSS 19 900 1000 200 D 50 50 0 0 W
+X N.C._1 2 0 -100 200 R 50 50 0 0 N
+X N.C._7 20 800 1000 200 D 50 50 0 0 N
+X EPAD 21 700 1000 200 D 50 50 0 0 W
+X ISO_7816_IO1 3 0 -200 200 R 50 50 0 0 B
+X N.C._2 4 0 -300 200 R 50 50 0 0 N
+X N.C._3 5 0 -400 200 R 50 50 0 0 N
+X N.C._4 6 800 -1200 200 U 50 50 0 0 N
+X N.C._5 7 900 -1200 200 U 50 50 0 0 N
+X N.C._6 8 1000 -1200 200 U 50 50 0 0 N
+X I2C_SDA 9 1100 -1200 200 U 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# archive_power_+3V3
+#
+DEF archive_power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "archive_power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# archive_power_GND
+#
+DEF archive_power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "archive_power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

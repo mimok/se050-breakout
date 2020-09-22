@@ -1,0 +1,4 @@
+(sym_lib_table
+    (lib (name archive)(type Legacy)(uri "${KIPRJMOD}/Pmod_SE050-archive.lib")(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri C:/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib)(options "")(descr ""))
+)

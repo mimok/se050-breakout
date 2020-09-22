@@ -1,0 +1,7 @@
+Reference, Quantity, Value, Footprint, Datasheet, Description, Height, Manufacturer_Name, Manufacturer_Part_Number
+C1 ,1,"100nF","TSens:C_0603","~"
+IC1 ,1,"SE050C1HQ1_Z01SCZ","QFN40P300X300X33-21N-D","https://www.mouser.at/datasheet/2/302/SE050-DATASHEET-1620446.pdf","Security ICs / Authentication ICs ECC, RSA, AES, DES, MIFARE KDF, CL-IF, I<sup>2</sup>C Master","0.33","Nexperia","SE050C1HQ1/Z01SCZ"
+J1 ,1,"Conn_02x03_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical","~"
+J2 J3 ,2,"Conn_01x06","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal","~"
+R1 R2 ,2,"1.69k","TSens:R_0603","~"
+R3 ,1,"10k","TSens:R_0603","~"

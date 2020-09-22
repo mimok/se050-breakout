@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Pmod_SE050)(type KiCad)(uri ${KIPRJMOD}/Pmod_SE050.pretty)(options "")(descr ""))
+)

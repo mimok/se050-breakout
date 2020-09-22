@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\Home\cmimok\Documents\Projets\TSensor\Pmod_SE050\Pmod_SE050.sch</source>
+    <date>22/05/2020 15:18:28</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Pmod_SE050.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>SE050C1HQ1_Z01SCZ</value>
+      <footprint>QFN40P300X300X33-21N-D</footprint>
+      <datasheet>https://www.mouser.at/datasheet/2/302/SE050-DATASHEET-1620446.pdf</datasheet>
+      <fields>
+        <field name="Description">Security ICs / Authentication ICs ECC, RSA, AES, DES, MIFARE KDF, CL-IF, I&lt;sup&gt;2&lt;/sup&gt;C Master</field>
+        <field name="Height">0.33</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">SE050C1HQ1/Z01SCZ</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SE050C1HQ1_Z01SCZ" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC45305</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.69k</value>
+      <footprint>TSens:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC48D0C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1.69k</value>
+      <footprint>TSens:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC49B1F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>TSens:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4DD24</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>TSens:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC5E3E8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC76090</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC86391</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC8F6D7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SE050C1HQ1_Z01SCZ">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SE050C1HQ1_Z01SCZ</field>
+        <field name="Footprint">QFN40P300X300X33-21N-D</field>
+        <field name="Datasheet">https://www.mouser.at/datasheet/2/302/SE050-DATASHEET-1620446.pdf</field>
+        <field name="Description">Security ICs / Authentication ICs ECC, RSA, AES, DES, MIFARE KDF, CL-IF, I&lt;sup&gt;2&lt;/sup&gt;C Master</field>
+        <field name="Height">0.33</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">SE050C1HQ1/Z01SCZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ISO_14443_LB" type="BiDi"/>
+        <pin num="2" name="N.C._1" type="NotConnected"/>
+        <pin num="3" name="ISO_7816_IO1" type="BiDi"/>
+        <pin num="4" name="N.C._2" type="NotConnected"/>
+        <pin num="5" name="N.C._3" type="NotConnected"/>
+        <pin num="6" name="N.C._4" type="NotConnected"/>
+        <pin num="7" name="N.C._5" type="NotConnected"/>
+        <pin num="8" name="N.C._6" type="NotConnected"/>
+        <pin num="9" name="I2C_SDA" type="BiDi"/>
+        <pin num="10" name="I2C_SCL" type="input"/>
+        <pin num="11" name="ENA" type="input"/>
+        <pin num="12" name="VIN" type="power_in"/>
+        <pin num="13" name="ISO_7816_CLK" type="input"/>
+        <pin num="14" name="ISO_7816_RST_N" type="input"/>
+        <pin num="15" name="VOUT" type="power_out"/>
+        <pin num="16" name="ISO_7816_IO2" type="BiDi"/>
+        <pin num="17" name="ISO_14443_LA" type="BiDi"/>
+        <pin num="18" name="VCC" type="power_in"/>
+        <pin num="19" name="VSS" type="power_in"/>
+        <pin num="20" name="N.C._7" type="NotConnected"/>
+        <pin num="21" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/SamacSys_PCB_Library/KiCad/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="/TRUSTED_SCL">
+      <node ref="J2" pin="3"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="3" name="/TRUSTED_SDA">
+      <node ref="J2" pin="4"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="IC1" pin="9"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="5" name="/SCL">
+      <node ref="J3" pin="4"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="/INT">
+      <node ref="J3" pin="6"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="IC1" pin="1"/>
+      <node ref="IC1" pin="19"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="IC1" pin="17"/>
+      <node ref="IC1" pin="21"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="13" name="/ENA">
+      <node ref="R3" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="14" name="+3V3">
+      <node ref="J1" pin="5"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="12"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad20)">
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="20" name="/VOUT">
+      <node ref="J2" pin="6"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+  </nets>
+</export>
