@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SE050 Breakout board"
-Date "2020-09-22"
-Rev "1.0"
+Date "2022-01-08"
+Rev "2.0"
 Comp "Security off-the-shelf"
 Comment1 "Creative Commons CA-BY 4.0"
 Comment2 ""
@@ -163,13 +163,7 @@ NoConn ~ 6500 3650
 Wire Wire Line
 	6500 3850 6650 3850
 Wire Wire Line
-	6500 3750 6800 3750
-Wire Wire Line
-	6500 3450 6500 2300
-Wire Wire Line
-	6500 2300 5500 2300
-Wire Wire Line
-	5500 2300 5500 2450
+	6500 3750 6650 3750
 Wire Wire Line
 	5700 2450 6200 2450
 Text Label 6200 2450 2    50   ~ 0
@@ -192,37 +186,6 @@ F 3 "" H 6800 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L archive:Device_R_Small R3
-U 1 1 5EC5E3E8
-P 7000 4500
-F 0 "R3" H 7059 4546 50  0000 L CNN
-F 1 "10k" H 7059 4455 50  0000 L CNN
-F 2 "Pmod_SE050:R_0603" H 7000 4500 50  0001 C CNN
-F 3 "~" H 7000 4500 50  0001 C CNN
-	1    7000 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L archive:power_+3V3 #PWR08
-U 1 1 5EC5EE79
-P 7000 4400
-F 0 "#PWR08" H 7000 4250 50  0001 C CNN
-F 1 "+3V3" H 7015 4573 50  0000 C CNN
-F 2 "" H 7000 4400 50  0001 C CNN
-F 3 "" H 7000 4400 50  0001 C CNN
-	1    7000 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 3850 6650 4600
-Wire Wire Line
-	6650 4600 7000 4600
-Wire Wire Line
-	7000 4600 7650 4600
-Connection ~ 7000 4600
-Text Label 7650 4600 2    50   ~ 0
-ENA
-$Comp
 L archive:power_+3V3 #PWR06
 U 1 1 5EC64CC1
 P 6800 3650
@@ -239,99 +202,35 @@ Connection ~ 6800 3750
 Text Label 6500 3150 1    50   ~ 0
 VOUT
 $Comp
-L archive:Connector_Generic_Conn_01x06 J2
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5EC76090
-P 8550 2400
-F 0 "J2" H 8500 2700 50  0000 L CNN
-F 1 "Conn_01x06" H 8630 2301 50  0001 L CNN
-F 2 "Pmod_SE050:PinHeader_1x06_P2.54mm_Horizontal" H 8550 2400 50  0001 C CNN
-F 3 "~" H 8550 2400 50  0001 C CNN
-	1    8550 2400
+P 7650 2350
+F 0 "J2" H 7600 2650 50  0000 L CNN
+F 1 "Conn_01x04" H 7730 2251 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7650 2350 50  0001 C CNN
+F 3 "~" H 7650 2350 50  0001 C CNN
+	1    7650 2350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8350 2300
 Wire Wire Line
-	8350 2400 7800 2400
+	7450 2350 6900 2350
 Wire Wire Line
-	8350 2500 7800 2500
-Text Label 7800 2400 0    50   ~ 0
+	7450 2450 6900 2450
+Text Label 6900 2350 0    50   ~ 0
 TRUSTED_SCL
-Text Label 7800 2500 0    50   ~ 0
+Text Label 6900 2450 0    50   ~ 0
 TRUSTED_SDA
 $Comp
 L archive:power_GND #PWR09
 U 1 1 5EC7B1E8
-P 7550 2600
-F 0 "#PWR09" H 7550 2350 50  0001 C CNN
-F 1 "GND" H 7555 2427 50  0000 C CNN
-F 2 "" H 7550 2600 50  0001 C CNN
-F 3 "" H 7550 2600 50  0001 C CNN
-	1    7550 2600
+P 6900 2550
+F 0 "#PWR09" H 6900 2300 50  0001 C CNN
+F 1 "GND" H 6905 2377 50  0000 C CNN
+F 2 "" H 6900 2550 50  0001 C CNN
+F 3 "" H 6900 2550 50  0001 C CNN
+	1    6900 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 2700 7800 2700
-$Comp
-L archive:Connector_Generic_Conn_01x06 J3
-U 1 1 5EC86391
-P 8550 3250
-F 0 "J3" H 8500 3550 50  0000 L CNN
-F 1 "Conn_01x06" H 8630 3151 50  0001 L CNN
-F 2 "Pmod_SE050:PinHeader_1x06_P2.54mm_Horizontal" H 8550 3250 50  0001 C CNN
-F 3 "~" H 8550 3250 50  0001 C CNN
-	1    8550 3250
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8350 3150 8100 3150
-Wire Wire Line
-	8350 3250 8100 3250
-Text Label 8100 3150 0    50   ~ 0
-SCL
-Text Label 8100 3250 0    50   ~ 0
-SDA
-$Comp
-L archive:power_+3V3 #PWR011
-U 1 1 5EC863A1
-P 7750 3600
-F 0 "#PWR011" H 7750 3450 50  0001 C CNN
-F 1 "+3V3" H 7765 3773 50  0000 C CNN
-F 2 "" H 7750 3600 50  0001 C CNN
-F 3 "" H 7750 3600 50  0001 C CNN
-	1    7750 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L archive:power_GND #PWR010
-U 1 1 5EC863AB
-P 7750 3150
-F 0 "#PWR010" H 7750 2900 50  0001 C CNN
-F 1 "GND" H 7755 2977 50  0000 C CNN
-F 2 "" H 7750 3150 50  0001 C CNN
-F 3 "" H 7750 3150 50  0001 C CNN
-	1    7750 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 3150 7950 3150
-Wire Wire Line
-	7950 3150 7950 3350
-Wire Wire Line
-	7950 3350 8350 3350
-Wire Wire Line
-	8350 3450 7950 3450
-Wire Wire Line
-	7950 3450 7950 3600
-Wire Wire Line
-	7950 3600 7750 3600
-Text Label 7800 2700 0    50   ~ 0
-VOUT
-Wire Wire Line
-	7550 2600 8350 2600
-Wire Wire Line
-	8350 3050 8100 3050
-Text Label 8100 3050 0    50   ~ 0
-ENA
 $Comp
 L archive:Connector_Generic_Conn_02x03_Odd_Even J1
 U 1 1 5EC8F6D7
@@ -373,14 +272,6 @@ SCL
 Wire Wire Line
 	8300 4050 8100 4050
 Wire Wire Line
-	8350 2200 7800 2200
-Wire Wire Line
-	8350 2950 8100 2950
-Text Label 8100 2950 0    50   ~ 0
-INT
-Text Label 7800 2200 0    50   ~ 0
-INT
-Wire Wire Line
 	7900 4150 7900 4100
 Wire Wire Line
 	7900 4150 8300 4150
@@ -389,4 +280,32 @@ Wire Wire Line
 Wire Wire Line
 	8950 3950 8800 3950
 NoConn ~ 8800 4150
+Wire Wire Line
+	6900 2550 7450 2550
+$Comp
+L archive:power_+3V3 #PWR0101
+U 1 1 614EFCA5
+P 6900 2200
+F 0 "#PWR0101" H 6900 2050 50  0001 C CNN
+F 1 "+3V3" H 6915 2373 50  0000 C CNN
+F 2 "" H 6900 2200 50  0001 C CNN
+F 3 "" H 6900 2200 50  0001 C CNN
+	1    6900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2250 6900 2200
+Wire Wire Line
+	6900 2250 7450 2250
+Wire Wire Line
+	6650 3850 6650 3750
+Connection ~ 6650 3750
+Wire Wire Line
+	6650 3750 6800 3750
+Wire Wire Line
+	5500 2300 5500 2450
+Wire Wire Line
+	6500 2300 5500 2300
+Wire Wire Line
+	6500 3450 6500 2300
 $EndSCHEMATC
